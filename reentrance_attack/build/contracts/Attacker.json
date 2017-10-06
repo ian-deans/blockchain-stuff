@@ -1,0 +1,134 @@
+{
+  "contract_name": "Attacker",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "attack",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "victim",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "payable": true,
+      "type": "fallback"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "c",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "name": "balance",
+          "type": "uint256"
+        }
+      ],
+      "name": "LogFallback",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b60405160208061021d833981016040528080519150505b60008054600160a060020a031916600160a060020a0383161790555b505b6101ca806100536000396000f300606060405236156100305763ffffffff60e060020a60003504166306661abd81146100fb5780639e5faafc14610120575b5b600180548101908190557ff4159b37750c1f8102b811a1409a82c505fbd359fd52574d3523feca952764f19073ffffffffffffffffffffffffffffffffffffffff30163160405191825260208201526040908101905180910390a1600a60015410156100f85760005473ffffffffffffffffffffffffffffffffffffffff16633ccfd60b6040518163ffffffff1660e060020a028152600401600060405180830381600087803b15156100e357600080fd5b6102c65a03f115156100f457600080fd5b5050505b5b005b341561010657600080fd5b61010e610135565b60405190815260200160405180910390f35b341561012b57600080fd5b6100f861013b565b005b60015481565b60005473ffffffffffffffffffffffffffffffffffffffff16633ccfd60b6040518163ffffffff1660e060020a028152600401600060405180830381600087803b151561018757600080fd5b6102c65a03f1151561019857600080fd5b5050505b5600a165627a7a7230582005f7f2411182ea2313d5615daf70b00095c5a9daf876f3bb361c55128467a7de0029",
+  "networks": {
+    "1507236998721": {
+      "events": {
+        "0xf4159b37750c1f8102b811a1409a82c505fbd359fd52574d3523feca952764f1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "c",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "balance",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogFallback",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xc6404f14b77c7bcbb1461c73f806b0ff5e91bfd7",
+      "updated_at": 1507243253695
+    },
+    "1507246219101": {
+      "events": {
+        "0xf4159b37750c1f8102b811a1409a82c505fbd359fd52574d3523feca952764f1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "c",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "balance",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogFallback",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xda493908b6b9042c13156dacdbbfc3478ed5119d",
+      "updated_at": 1507246275258
+    },
+    "1507251563024": {
+      "events": {
+        "0xf4159b37750c1f8102b811a1409a82c505fbd359fd52574d3523feca952764f1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "c",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "balance",
+              "type": "uint256"
+            }
+          ],
+          "name": "LogFallback",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x46d244d5b7168330e09a4c1b1ea851de2de69f24",
+      "updated_at": 1507252320304
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1507252320304
+}

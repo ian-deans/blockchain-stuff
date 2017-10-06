@@ -1,0 +1,44 @@
+{
+  "contract_name": "Victim",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "withdraw",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "payable": true,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60d68061001e6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416633ccfd60b81146046578063d0e30db0146058575b600080fd5b3415605057600080fd5b60566060565b005b605660a7565b005b67016345785d8a000073ffffffffffffffffffffffffffffffffffffffff33168160405160006040518083038185876187965a03f192505050151560a357600080fd5b5b50565b5b5600a165627a7a72305820d97a75ddbff4842b6d6b7490609514e85d2d79e1c1148371c1516fd554a2fe110029",
+  "networks": {
+    "1507236998721": {
+      "events": {},
+      "links": {},
+      "address": "0x5fd44fc4e58fd8ba0dd5c2a16c06d8374cd67cdb",
+      "updated_at": 1507243253695
+    },
+    "1507246219101": {
+      "events": {},
+      "links": {},
+      "address": "0xd9ffaadcaf52ad6d2545d85dde77531742593d4b",
+      "updated_at": 1507246275258
+    },
+    "1507251563024": {
+      "events": {},
+      "links": {},
+      "address": "0xd13014398dced1cdbc157b934be8e004e9168b68",
+      "updated_at": 1507252320304
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1507252320304
+}
